@@ -8,9 +8,22 @@
   --color-line-bottom: #3b4149;
   --color-bg-icons: #febd69;
   --color-header-bottom: #232f3e;
+  --color-text-banner: #bf4800;
+  --color-shopify: #f5f5f7;
+}
+.card-wrapper{
+  background-color: white;
+  box-shadow: 0 0 10px #000001a;
+  padding: 15px;
 }
 body{
   font-family: "Rubik",sans-serif;
+}
+.section-heading{
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-bottom: 30px;
 }
 a{
   text-decoration: none;
@@ -28,6 +41,17 @@ a{
 }
 .gap-30{
   gap: 30px;
+}
+.button{
+  background-color: var(--color-header-bottom);
+  color: white;
+  font-size: 14px;
+  padding: 13px 33px;
+  border-radius: 25px;
+}
+.button:hover{
+  background-color: var(--color-bg-icons);
+  color: white;
 }
 /* Header */
 .header-top-strip{
@@ -73,6 +97,175 @@ a{
   background-color: transparent;
   color: var(--color-bg-icons)!important;
 }
+/* Home-wrapper-1 */
+.main-banner-content{
+  top: 15%;
+  left: 5%;
+}
+.main-banner-content h4{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--color-text-banner);
+  margin: 0 0 12px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+.main-banner-content h5{
+  font-size: 52px;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: -2px;
+  text-transform: none;
+}
+.main-banner-content p{
+ font-size: 18px;
+ line-height: 28px;
+ letter-spacing: 0.4;
+ color: var(--color-header);
+}
+.small-banner-content{
+  top: 25%;
+  left: 10%;
+}
+.small-banner-content h4{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--color-text-banner);
+  margin: 0 0 12px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+.small-banner-content h5{
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: -2px;
+  text-transform: none;
+}
+.small-banner-content p{
+ font-size: 14px;
+ line-height: 22px;
+ letter-spacing: 0.4;
+ color: var(--color-header);
+}
+.small-banner{
+  width: 49%;
+}
+/* Home-wrapper-2 */
+.home-wrapper-2{
+  background-color: var(--color-shopify);
+}
+.categories{
+  background-color: white;
+  box-shadow: 0 0 10px #000001a;
+  padding: 15px;
+}
+.categories >div{
+  width: 25%;
+  padding: 10px 20px 10px 10px;
+}
+.categories >div >div{
+  width: 60%;
+}
+.categories >div:nth-child(1),
+.categories >div:nth-child(2),
+.categories >div:nth-child(3),
+.categories >div:nth-child(4){
+  border-bottom: 1px solid;
+}
+.categories >div:nth-child(1),
+.categories >div:nth-child(2),
+.categories >div:nth-child(3){
+  border-right: 1px solid;
+}
+.categories >div:nth-child(5),
+.categories >div:nth-child(6),
+.categories >div:nth-child(7){
+  border-right: 1px solid;
+}
+.blog-card{
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+.blog-card img{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.blog-content{
+  padding: 15px;
+}
+.blog-content .date{
+  font-size: 13px;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  font-weight: 400;
+  padding: 0;
+}
+.blog-content h5{
+  font-size: 18px;
+  color: var(--color-header);
+}
+.blog-content p.desc{
+  font-size: 13px;
+  line-height: 22px;
+}
+/* ProductCard */
+.product-card{
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.product-card:hover .action-bar{
+  right: 10px;
+}
+.product-card .product-details h6{
+  color: var(--color-text-banner);
+  font-size: 13px;
+}
+.product-card .product-details h5{
+  font-size: 15px;
+  color: var(--color-header);
+}
+.product-card .product-details p.price{
+  font-size: 16px;
+  color: var(--color-header);
+}
+.action-bar{
+  top: 10%;
+  right: -23px;
+  transition: 0.3s;
+}
+.wishlist-icon{
+  top: 3%;
+  right: 12px;
+}
+.famous-card .famous-content{
+  top: 75%;
+  left: 10%;
+}
+.famous-content h6{
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: 500;
+}
+.famous-content p{
+  font-size: 16px;
+  line-height: 24px;
+}
+.famous-card img{
+  border-radius: 10px;
+}
+.special-product-card{
+  padding: 20px 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
 /* Footer */
 footer{
   background-color: var(--color-header-bottom);
