@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 const Blogcard = () => {
-    return <div className="col-3">
+    return (
         <div className="blog-card">
             <div className="card-image">
-                <img className="img-fluid" src="images/blog-1.jpg" alt="blog"/>
+                <img className="img-fluid w-100" src="images/blog-1.jpg" alt="blog"/>
             </div>
             <div className="blog-content">
                 <p className="date">1 Dec 2023</p>
@@ -18,6 +18,6 @@ const Blogcard = () => {
                 <Link to="/" className="button">Read More</Link>
             </div>
         </div>
-    </div>
+    )
 }
 export default Blogcard;
