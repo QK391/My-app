@@ -391,6 +391,66 @@ a{
 .contact-inner-wrapper a{
   color: var(--color-header);
 }
+/* Compare ProductCard */
+.compare-product-card{
+  padding: 20px 15px;
+  background-color: white;
+  border-radius: 10px;
+}
+.compare-product-card .cross,
+.wishlist-card .cross{
+  top: 15px;
+  right: 15px;
+  width: 25px;
+  padding: 3px;
+  cursor: pointer;
+}
+.compare-product-details h5.title,
+.wishlist-card h5.title{
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 500;
+}
+.compare-product-details h6.price,
+.wishlist-card h6.price{
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.compare-product-card .product-detail{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  border-top: 1px solid;
+}
+/* auth-card */
+.auth-card{
+  padding: 20px;
+  background-color: white;
+  width: 500px;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+.auth-card h3{
+  font-size: 22px;
+}
+.auth-card .form-control{
+  height: 50px;
+  background-color: var(--color-shopify);
+  font-size: 14px;
+  border-radius: 10px;
+  border-color: transparent;
+}
+.auth-card a{
+  font-size: 14px;
+}
+.forgot-password{
+  color: var(--color-header);
+}
+.forgot-password:hover{
+  color: var(--color-header);
+}
 /* Footer.js */
 footer{
   background-color: var(--color-header-bottom);
