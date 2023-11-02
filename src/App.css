@@ -545,6 +545,32 @@ a{
   font-size: 13px;
   margin-bottom: 0px;
 }
+/* Cart Pages */
+.cart-header,
+.cart-data{
+  boder-bottom: 1px solid white;
+}
+.cart-header h4{
+
+}
+.cart-col-1{
+  width: 40%;
+}
+.cart-col-1 p{
+ font-size: 14px;
+}
+.cart-col-2{
+  width: 10%;
+}
+.cart-col-3{
+  width: 15%;
+}
+.cart-col-4{
+  width: 15;
+}
+.cart-data h5.price{
+  font-size: 14px;
+}
 /* Footer.js */
 footer{
   background-color: var(--color-header-bottom);
