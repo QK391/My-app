@@ -15,7 +15,7 @@ const Blogcard = () => {
                     React Fast Marquee is a lightweight React component that harnesses the power of
                     CSS animations to create silky smooth marquees.
                 </p>
-                <Link to="/" className="button">Read More</Link>
+                <Link to="/blog/:id" className="button">Read More</Link>
             </div>
         </div>
     )
