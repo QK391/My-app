@@ -571,6 +571,10 @@ a{
 .cart-data h5.price{
   font-size: 14px;
 }
+/* Shipping Page */
+.total, .total-price{
+  font-size: 14px;
+}
 /* Footer.js */
 footer{
   background-color: var(--color-header-bottom);
