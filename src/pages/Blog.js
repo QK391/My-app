@@ -2,12 +2,12 @@ import React from "react";
 import Meta from "../components/Meta";
 import BreadColumd from "../components/BreadColumd";
 import Blogcard from "../components/Blogcard";
+import Container from "../components/Container";
 const Blog = () => {
     return <>
         <Meta title={"Blog"} />
         <BreadColumd title="Blog" />
-        <div className="blog-wrapper home-wrapper-2 py-5">
-            <div className="container-xxl">
+        <Container class1="blog-wrapper home-wrapper-2 py-5">
                 <div className="row">
                     <div className="col-3">
                         <div className="filter-card mb-3">
@@ -39,8 +39,7 @@ const Blog = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+        </Container>
     </>
 }
 export default Blog;
