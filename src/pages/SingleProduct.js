@@ -12,7 +12,7 @@ import Container from '../components/Container';
 const SingleProduct = () => {
 
     const props = { width: 400, height: 550, zoomWidth: 600, img: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MT5J3ref_VW_34FR+watch-49-titanium-ultra2_VW_34FR+watch-face-49-alpine-ultra2_VW_34FR?wid=5120&hei=3280&bgc=fafafa&trim=1&fmt=p-jpg&qlt=80&.v=V2tka2lyS0VIV2tOTnZwUHdjcUhBaEZPYUtzeTRQVVJ5RG0wcnpadi96L1VYSXRUN1VQK3Nhb1hTK1VFYms2a0IzMDBvaSthcUJDc2lUMklaVFdPN2M3VlVnN2o1MzlNNzJ6V2lBNm12Z3VmY0EzcE04TzlWK1ZjdzFEemN3Y0N3SHBtSkFCVG00emNCNnZZdmx1anRJNGlHOFl6S0RBZW5kOVRmcVQwcUxWS1VLU1NaeUN4Y0oyZ1lKUEFiV3dqekx6L21RZ2F1Tm5ZWmdlMjhIN2tFUT09" };
-    const [orderedProduct, setorderedProduct] = useState(true);
+    const [orderedProduct] = useState(true);
     const copyToClipboard = (text) => {
         console.log('text', text)
         var textField = document.createElement('textarea')
