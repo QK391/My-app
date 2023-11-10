@@ -1,4 +1,5 @@
 import axios from "axios";
+// eslint-disable-next-line no-unused-vars
 import { base_url } from "../../utils/axiosConfig";
 
 const register = async(userData)=>{
@@ -7,6 +8,12 @@ const register = async(userData)=>{
         return response.data;
     }
 }
+const login = async(userData)=>{
+    const response = await axios.post(`$ {base_url} user/login`, userData);
+    if(response.data){
+        return response.data;
+    }
+}
 export const authService = {
-    register,
+    register, login,
 }
